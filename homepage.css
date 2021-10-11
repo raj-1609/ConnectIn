@@ -1,0 +1,571 @@
+@import url('https://font.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+form.example input[type=text] {
+    padding:10px;
+    padding-right:center;
+    font-size: 17px;
+    border: 1px solid grey;
+    float:center;
+    width: 42%;
+    background:white;
+    color:black;
+  }
+  
+  form.example button {
+    float:center;
+    width:20%;
+    padding:10px;
+    background:greenyellow;
+    color:white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background:lightgreen;
+  }
+  
+  
+  form.example::after {
+    content: "";
+    clear:both;
+    display: table;
+  }
+.about{
+    background: url('images/327135.jpg');
+    color:white;
+}
+
+.edit{
+    color:white;
+    font-style: oblique;
+    font-size: 25px;
+}
+h2{
+    color: white;
+}
+ p{
+    font-weight: 300;
+    color:#111;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+.bgm{
+    color:darkblue;
+
+}
+body{
+    min-height:1000px ;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url('images/Education\ is\ the\ passport\ to\ the\ future\,\ for\ tomorrow\ belongs\ to\ those\ who\ prepare\ for\ it\ today..png');
+    
+    background-size:cover;
+}
+
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 5em;
+    color:#fff;
+}
+.banner .content p{
+    font-size: 1em;
+    color: #fff;
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:green ;
+    transition-delay:0.2s;
+    letter-spacing:5px;
+    color:white;
+
+}
+.font{
+    font-style: normal;
+    text-transform: uppercase;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.courses{
+    background-image: url('https://cdn.dribbble.com/users/51255/screenshots/3309052/tnc7.gif');
+    
+}
+header.sticky{
+    background:white;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    line-height: 50px;
+}
+header .logo{
+    color:#fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: #111;
+}
+header .logo span{
+color:#ff0157;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+header .navigation li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+    color:tomato;
+
+}
+header.sticky .navigation li a{
+    color:#111;
+    border-top: 1px solid #33e9fa ;
+    border-radius: 15px;
+
+}
+header .navigation li a:hover{
+    color: black;
+}
+a:hover{
+    background-color: #03e9fa;
+    color:white;
+    box-shadow: 0 0 5px cyan,
+                0 0 25px #03e9fa,
+                0 0 50px #03e9fa,
+                0 0 100px #03e9fa;
+transition-delay:0.2s;
+color:black;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.titleText{
+    color:#111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titleText span{
+    color:#ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBx{
+    position: relative;
+    width:100%;
+    min-height:300px;
+}
+.row .col50 .imgBx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.menu{  
+    
+    background-image: url('images/annie-spratt-xz485Eku8O4-unsplash.jpg');
+
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Barlow', sans-serif;
+}
+
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border:15px solid white;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.menu .content .box .text{
+    padding: 15px 0 5px;
+
+}
+.menu .content .box .text h3{
+    font-weight: 400;
+    color:#111;
+
+}
+.courses .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.courses .content .box{
+    width: 340px;
+    margin: 20px;
+    border:15px solid white;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.courses .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.courses .content .box .imgBx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.courses .content .box .text{
+    padding: 15px 0 5px;
+
+}
+.courses .content .box .text h3{
+    font-weight: 400;
+    color:#111;
+
+}
+.expert{
+    background-color:silver;
+  
+}
+.expert .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Barlow', sans-serif;
+
+}
+.expert .content .box{
+width: 250px;
+margin:15px;
+}
+.expert .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .content .box .imgBx img{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height: 100%;
+object-fit: cover;
+}
+.expert .content .box .text{
+    padding: 1 5px 0 5px;
+}
+.expert .content .box .text h3{
+    font-weight: 400;
+    color:#111;
+}
+
+.white .titleText,
+.white .p{
+    color: #fff;
+}
+
+
+
+
+.contact{
+background:url('images/com.jfif');
+background-size: cover;
+}
+.contactForm{
+    padding: 75px 50px;
+    background:#fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin-top: 50px;
+
+}
+.contactForm h3{
+    color:#111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input{
+    width:100%;
+    border:1px solid #555;
+    padding: 10px;
+    color:#111;
+    outline: none;
+    font-size: 16px;
+}
+.contactForm.inputBox input,
+.contactForm.inputBox textarea{
+    width:100%;
+    border:1px solid #555;
+    padding:10px;
+    color:#111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm.inputBox input[type="submit"]{
+    font-size: 1em;
+    color:#fff;
+    background:#ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition:0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border:none;
+    cursor: pointer;
+}
+@media (max-width:991px){
+    header,header.sticky{
+        padding:10px 20px;
+}
+header .navigation{
+    display: none;
+}
+header.navigation.active{
+    width: 100%;
+    height:calc(100%-68px);
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#fff;
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 0;
+}
+.menuToggle{
+    position: relative;
+    width:40px;
+    height:40px;
+    background:url(images/LOGO.jpg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+}
+.menuToggle.active{
+    background:url();
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+header.sticky.menuToggle{
+    filter:invert(1);
+}
+section{
+    padding: 20px;
+}
+.banner .content h2{
+    font-size: 3em;
+    color:#fff;
+}
+.row{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.row .col50{
+    position: relative;
+    width:100%;
+}
+row .col50 .imgBx{
+    height:300px;
+    margin-top:20px;
+}
+.menu.content{
+    margin-top:20px;
+}
+.menu .content .box{
+    width: 340px;
+    margin:10px;
+    border:15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.title{
+    text-align: center;
+}
+.titleText{
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.contactForm{
+    padding: 35px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color:silver;
+     
+}
+.send{
+    color:black;
+    text-transform: uppercase;
+}
+.submit{
+    background-color:red;
+
+}
+.submit:hover{
+    background-color: green;
+    cursor: pointer;
+}
+}
+@media(max-width:991px){
+    .banner .content h2{
+        font-size: 2.2em;
+        color:#fff;
+        }
+}
+h3{
+    color:white;  
+    font-family: 'Times New Roman', Times, serif;
+      font-style: normal;
+      font-size: 20px;
+     font-weight: 300;
+  }
+.contactForm h2{
+    color: black;
+}
+  
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+.consq{
+    font-size:25px;
+}
+
+
+
